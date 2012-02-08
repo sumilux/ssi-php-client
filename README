@@ -1,1 +1,17 @@
-This is the Sumilux Social Sign-In (SSI) PHP client and samples project
+This is the Sumilux Social Sign-In (SSI) PHP client and samples project, the files
+and their purposes are:
+
+README:
+	This file
+
+index.php
+	The main sample file, point your browser to this file to see the sample 
+	in action.
+
+sample_sign_in.php
+	This is where the user will be redirected to, which processes the sign in
+	request and fetches user attribute information.
+
+SSI.php
+	This is the main PHP library, please do not modify this file when you
+	use our library.

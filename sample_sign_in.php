@@ -26,7 +26,13 @@ $ssi->setToken($_POST['ssi_token']);
 echo "<p>This user has the following attributes: <br>\n";
 var_dump($ssi->getAttributes());
 
+// TODO: display permanent UID:
+
 echo "<p><h2> User Sign-In Processed Successfully!</h2>\n";
+
+echo "<p>For more information this PHP library, please consult the
+	<a href=\"http://www.sumilux.com/docs/ssi-php-client/\">
+	reference documentation</a>";
 
 ?>
 
